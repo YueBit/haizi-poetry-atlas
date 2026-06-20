@@ -37,10 +37,6 @@
 
 ![haizi_wordle1](https://www.never84.com/wp-content/uploads/2022/05/Word-Art-2.jpeg)
 
-换一张卡通图做底：
-
-![haizi_wordle2](https://www.never84.com/wp-content/uploads/2022/05/Wordle-haizi.jpeg)
-
 jieba跑出来各个关键词的权值Top100如下：
 
 天空    484
