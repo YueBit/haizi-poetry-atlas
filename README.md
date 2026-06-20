@@ -1,5 +1,4 @@
 # Haizi_Poem_Explorer
-Using Python to analyze the poems from Haizi
 
 2019年的夏天，我从茶卡盐湖开车向西，目的地是德令哈。那天晚上，公路两边是牧场，高速上车很少，只有大量蚊虫围着车灯飞。
 
