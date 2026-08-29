@@ -3,11 +3,12 @@
 > Exploring recurring imagery and relationships in Hai Zi's poetry.
 > 探索海子诗歌中反复出现的意象，以及它们彼此之间的关联。
 
-**海子诗歌图谱** 是一个关于海子诗歌世界的数字人文项目。它把一本诗集转化为一张安静的、可交互的**意象星座图**，让你从一个词出发，回到诗本身。
+**海子诗歌图谱** 是一个关于海子诗歌世界的数字人文项目。它把一本诗集转化为一张安静的、可交互的**意象图谱**，让你从一个词出发，回到诗本身。
 
-<!--
-  Demo / screenshot placeholder — replace with a real screenshot once deployed.
-  ![Haizi Poetry Atlas](docs/screenshot.png)
+**在线访问**：https://yuebit.github.io/haizi-poetry-atlas/
+
+<!-- 截图占位：上线后替换为真实截图
+![海子诗歌图谱](docs/screenshot.png)
 -->
 
 ---
@@ -24,7 +25,7 @@
 
 ## 可以探索什么
 
-- **图谱（Atlas）** — 一张意象星座图。词的大小表示出现频率，连线表示意象之间的共现关系；点击一个词，进入它的世界。
+- **图谱（Atlas）** — 一张意象图谱。词的大小表示出现频率，连线表示意象之间的共现关系；点击一个词，进入它的世界。
 - **意象（Imagery）** — 单个意象的详情：出现次数、涉及诗篇、时间分布、相近意象，以及它在具体诗句中的片段。
 - **诗篇（Poems）** — 从一个意象出发，浏览包含它的诗篇，看到它出现的上下文。
 - **关于（About）** — 项目的来处、方法与局限。
