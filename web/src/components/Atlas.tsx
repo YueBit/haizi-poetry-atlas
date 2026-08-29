@@ -52,6 +52,7 @@ export default function Atlas() {
   const [dims, setDims] = useState({ w: 960, h: 640 });
   const [positions, setPositions] = useState<Record<string, Position>>({});
   const [hover, setHover] = useState<string | null>(null);
+  const [offset, setOffset] = useState<Position>({ x: 0, y: 0 });
 
   const { nodes, links, neighbors, maxFreq } = useMemo(() => {
     const maxFreq = Math.max(...data.imagery.map((n) => n.frequency));
@@ -121,13 +122,28 @@ export default function Atlas() {
           (d) => (d.id.length * fontSize(d.frequency, maxFreq)) / 2 + 6
         )
       )
-      .force("x", forceX<SimNode>(dims.w / 2).strength(0.04))
-      .force("y", forceY<SimNode>(dims.h / 2).strength(0.04));
+      .force("x", forceX<SimNode>(dims.w / 2).strength(0.08))
+      .force("y", forceY<SimNode>(dims.h / 2).strength(0.12));
 
     simulation.on("tick", () => {
       const pos: Record<string, Position> = {};
-      for (const n of simNodes) pos[n.id] = { x: n.x, y: n.y };
+      let minX = Infinity;
+      let maxX = -Infinity;
+      let minY = Infinity;
+      let maxY = -Infinity;
+      for (const n of simNodes) {
+        pos[n.id] = { x: n.x, y: n.y };
+        if (n.x < minX) minX = n.x;
+        if (n.x > maxX) maxX = n.x;
+        if (n.y < minY) minY = n.y;
+        if (n.y > maxY) maxY = n.y;
+      }
       setPositions(pos);
+      // Keep the whole constellation visually centred in the stage.
+      setOffset({
+        x: dims.w / 2 - (minX + maxX) / 2,
+        y: dims.h / 2 - (minY + maxY) / 2,
+      });
     });
 
     return () => {
@@ -157,7 +173,7 @@ export default function Atlas() {
         style={{ margin: "1.25rem 0" }}
       >
         <svg>
-          <g>
+          <g transform={`translate(${offset.x}, ${offset.y})`}>
             {links.map((l, i) => {
               const a = positions[l.source];
               const b = positions[l.target];
