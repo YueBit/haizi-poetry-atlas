@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# --- Node / web ---
+web/node_modules/
+web/dist/
+web/public/data/
+web/.vite/
+npm-debug.log*
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Raw corpus (copyrighted, user-provided — NEVER committed) ---
+# The project does not redistribute Hai Zi's poems. Users place their own
+# corpus files here. See corpus/README.md for setup instructions.
+corpus/*.pdf
+corpus/*.PDF
+corpus/*.txt
+corpus/*.epub
+
+# --- Local scratch ---
+*.log

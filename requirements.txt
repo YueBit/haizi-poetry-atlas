@@ -1,0 +1,6 @@
+# Core pipeline (tokenization + analysis)
+jieba>=0.42.1
+
+# Optional — only needed for the `extract` stage (PDF -> text).
+# If you already have a plain-text corpus at corpus/haizi.txt, skip this.
+# pdfplumber>=0.10.0

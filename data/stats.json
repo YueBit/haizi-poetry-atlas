@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-08-29T13:13:49+00:00",
+  "title": "海子诗歌图谱 · Haizi Poetry Atlas",
+  "corpus": {
+    "name": "海子诗全集（西川 编）",
+    "poem_count": 209,
+    "total_characters": 225932,
+    "date_range": {
+      "min": 1983,
+      "max": 1989
+    },
+    "note": "Poem boundaries, titles, and years are extracted best-effort from a PDF text export; see README for known limitations."
+  },
+  "imagery_word_count": 95,
+  "top_words": [
+    {
+      "word": "太阳",
+      "frequency": 244,
+      "poem_count": 53
+    },
+    {
+      "word": "天空",
+      "frequency": 238,
+      "poem_count": 56
+    },
+    {
+      "word": "石头",
+      "frequency": 181,
+      "poem_count": 33
+    },
+    {
+      "word": "大地",
+      "frequency": 149,
+      "poem_count": 44
+    },
+    {
+      "word": "草原",
+      "frequency": 142,
+      "poem_count": 37
+    },
+    {
+      "word": "火",
+      "frequency": 134,
+      "poem_count": 31
+    },
+    {
+      "word": "头颅",
+      "frequency": 132,
+      "poem_count": 29
+    },
+    {
+      "word": "月亮",
+      "frequency": 121,
+      "poem_count": 38
+    },
+    {
+      "word": "黑夜",
+      "frequency": 91,
+      "poem_count": 32
+    },
+    {
+      "word": "眼睛",
+      "frequency": 88,
+      "poem_count": 40
+    },
+    {
+      "word": "村庄",
+      "frequency": 88,
+      "poem_count": 34
+    },
+    {
+      "word": "故乡",
+      "frequency": 84,
+      "poem_count": 31
+    },
+    {
+      "word": "母亲",
+      "frequency": 84,
+      "poem_count": 30
+    },
+    {
+      "word": "黄昏",
+      "frequency": 80,
+      "poem_count": 37
+    },
+    {
+      "word": "河流",
+      "frequency": 79,
+      "poem_count": 37
+    },
+    {
+      "word": "黑暗",
+      "frequency": 79,
+      "poem_count": 26
+    },
+    {
+      "word": "手",
+      "frequency": 78,
+      "poem_count": 29
+    },
+    {
+      "word": "秋天",
+      "frequency": 75,
+      "poem_count": 33
+    },
+    {
+      "word": "北方",
+      "frequency": 75,
+      "poem_count": 32
+    },
+    {
+      "word": "孤独",
+      "frequency": 74,
+      "poem_count": 36
+    },
+    {
+      "word": "痛苦",
+      "frequency": 71,
+      "poem_count": 26
+    },
+    {
+      "word": "嘴唇",
+      "frequency": 70,
+      "poem_count": 35
+    },
+    {
+      "word": "春天",
+      "frequency": 69,
+      "poem_count": 28
+    },
+    {
+      "word": "天堂",
+      "frequency": 68,
+      "poem_count": 23
+    },
+    {
+      "word": "死亡",
+      "frequency": 65,
+      "poem_count": 27
+    },
+    {
+      "word": "远方",
+      "frequency": 65,
+      "poem_count": 29
+    },
+    {
+      "word": "土地",
+      "frequency": 62,
+      "poem_count": 22
+    },
+    {
+      "word": "夜晚",
+      "frequency": 62,
+      "poem_count": 35
+    },
+    {
+      "word": "头发",
+      "frequency": 58,
+      "poem_count": 29
+    },
+    {
+      "word": "儿子",
+      "frequency": 58,
+      "poem_count": 25
+    }
+  ],
+  "methodology": {
+    "tokenizer": "jieba with a curated imagery user-dictionary",
+    "cooccurrence": "cosine similarity of binary poem-presence vectors (Ochiai coefficient): |A∩B| / sqrt(|A|·|B|)",
+    "timeline": "occurrence counts by poem year; undated poems excluded",
+    "excerpt": "occurrences store the matched line clipped to ~36 chars — limited excerpts, not full poems"
+  }
+}
