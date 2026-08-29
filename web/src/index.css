@@ -214,7 +214,6 @@ a:hover {
   font-family: var(--serif);
   letter-spacing: 0.05em;
   fill: var(--ink-soft);
-  pointer-events: none;
   user-select: none;
 }
 
