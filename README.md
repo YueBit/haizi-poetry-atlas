@@ -475,23 +475,6 @@ The atlas should therefore be understood as:
 
 ## 路线图 · Roadmap
 
-### 时间 · Time
-
-观察同一意象如何在不同时期发生变化。
-
-Explore how recurring imagery changes across different periods.
-
-```text
-1984 ━━━━━
-1985 ━━━━━━━━━
-1986 ━━━━━━━━━━━━━
-1987 ━━━━━━━
-1988 ━━━━━━━━━━━━━━━
-1989 ━━━━━
-```
-
----
-
 ### 地理 · Places
 
 把诗歌中的地理重新放回地图：
@@ -511,27 +494,6 @@ Bring geographical references in the poems back onto a map:
 让诗歌与真实世界重新发生联系。
 
 Reconnect the poetic world with the physical one.
-
----
-
-### 诗歌指纹 · Poem Fingerprint
-
-尝试用几个大的意象维度描述每首诗，例如：
-
-Represent each poem through broader imagery dimensions such as:
-
-```text
-Nature
-Body
-Death
-Home
-Myth
-Light / Darkness
-```
-
-并寻找结构上相近的作品。
-
-This may make it possible to discover poems with similar imagery structures.
 
 ---
 
@@ -570,24 +532,6 @@ AI 不会成为这个项目的主角。
 AI will not become the protagonist of this project.
 
 **The poetry will.**
-
----
-
-## 关于 · About
-
-**海子诗歌图谱 · Haizi Poetry Atlas**
-
-一个关于诗、数据、旅行和好奇心的个人项目。
-
-2019 年，我因为一首诗去了德令哈。
-
-很多年以后，我又用代码重新走了进去。
-
-A personal project about poetry, data, travel, and curiosity.
-
-In 2019, a poem took me to Delingha.
-
-Years later, I found my way back through code.
 
 ---
 
