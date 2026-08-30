@@ -1,7 +1,7 @@
 # 海子诗歌图谱 · Haizi Poetry Atlas
 
 > Exploring recurring imagery and relationships in Hai Zi's poetry.
-> 探索海子诗歌中反复出现的意象，以及它们彼此之间的关联。
+> 探索海子诗歌中最常出现的意象，以及它们彼此之间的关联。
 
 **海子诗歌图谱** 是一个关于海子诗歌世界的数字人文项目。它把一本诗集转化为一张可交互的**意象图谱**，让你从一个词出发，回到诗本身。
 
