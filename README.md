@@ -7,9 +7,7 @@
 
 **在线访问**：https://yuebit.github.io/haizi-poetry-atlas/
 
-<!-- 截图占位：上线后替换为真实截图
-![海子诗歌图谱](docs/screenshot.png)
--->
+![海子诗歌图谱](docs/hero.gif)
 
 ---
 

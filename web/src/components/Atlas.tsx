@@ -37,12 +37,12 @@ interface Position {
 
 // Font size (px) for a node label, scaled by its frequency.
 function fontSize(frequency: number, maxFreq: number): number {
-  return 11 + Math.pow(frequency / maxFreq, 0.6) * 19;
+  return 11 + Math.pow(frequency / maxFreq, 0.8) * 26;
 }
 
 // Dot marker radius for a node.
-function dotRadius(frequency: number): number {
-  return 2.4 + Math.pow(frequency, 0.35) * 0.55;
+function dotRadius(frequency: number, maxFreq: number): number {
+  return 2.4 + Math.pow(frequency / maxFreq, 0.8) * 4;
 }
 
 export default function Atlas() {
@@ -209,13 +209,13 @@ export default function Atlas() {
                   onClick={() => navigate(`/imagery/${encodeURIComponent(n.id)}`)}
                 >
                   <circle
-                    r={dotRadius(n.frequency)}
+                    r={dotRadius(n.frequency, maxFreq)}
                     fill={color}
                     fillOpacity={0.85}
                   />
                   <text
                     fontSize={fs}
-                    x={dotRadius(n.frequency) + 5}
+                    x={dotRadius(n.frequency, maxFreq) + 5}
                     dominantBaseline="central"
                   >
                     {n.id}
