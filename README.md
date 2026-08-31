@@ -3,7 +3,7 @@
 > **从一个词出发，重新进入海子的诗。**
 > **From a word, back into the poem.**
 
-![海子诗歌图谱](docs/hero.gif)
+![海子诗歌图谱](docs/hero-1.gif)
 
 **[探索海子诗歌图谱 →](https://yuebit.github.io/haizi-poetry-atlas/)**
 
